@@ -10,6 +10,8 @@ This is a simple blog app built using Flask and SQLAlchemy. It allows users to c
 
 ## Usage
 
+Navigate to the main directory and run `mkdir static/imgs` to create the image directory. This folder can be configured in `cms.py` if you'd like to store images elsewhere.
+
 To run the app, simply run `python app.py` in your terminal. The app will be available at `http://127.0.0.1:8000`.
 
 ## Features
@@ -24,7 +26,7 @@ To run the app, simply run `python app.py` in your terminal. The app will be ava
 - app.py (main Flask app file)
 - models.py (database models)
 - static/
-	 - imgs/ (image uploads) <-- you may need to create this!
+	 - imgs/ (image uploads) <-- you need to create this folder
 - templates/
 	 - admin.html (admin page template)
 	 - create.html (create post template)
